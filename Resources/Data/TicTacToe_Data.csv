@@ -1,0 +1,15 @@
+TicTacTowDataDrivenTest,,,,
+RunTest,TestName,TestDescription,SquareSelection,LabelExpectedResult
+Y,TC001_TicTacToe_ValidateLabelAfterSquare1Selected,To validate the label changes after square is X,1,It's O's turn
+Y,TC002_TicTacToe_ValidateLabelAfterSquare2Selected,To validate the label changes after square is X,2,It's O's turn
+Y,TC003_TicTacToe_ValidateLabelAfterSquare3Selected,To validate the label changes after square is X,3,It's O's turn
+Y,TC004_TicTacToe_ValidateLabelAfterSquare4Selected,To validate the label changes after square is X,4,It's O's turn
+Y,TC005_TicTacToe_ValidateLabelAfterSquare5Selected,To validate the label changes after square is X,5,It's O's turn
+Y,TC006_TicTacToe_ValidateLabelAfterSquare6Selected,To validate the label changes after square is X,6,It's O's turn
+Y,TC007_TicTacToe_ValidateLabelAfterSquare7Selected,To validate the label changes after square is X,7,It's O's turn
+Y,TC008_TicTacToe_ValidateLabelAfterSquare8Selected,To validate the label changes after square is X,8,It's O's turn
+Y,TC009_TicTacToe_ValidateLabelAfterSquare9Selected,To validate the label changes after square is X,9,It's O's turn
+Y,TC010_TicTacToe_ValidateTieScore,,"1,9,3,7,8,2,4,5,6",Game ended in a draw!
+Y,TC011_TicTacToe_ValidateXWins,,"1,4,2,5,3",Player X has won!
+Y,TC012_TicTacToe_ValidateOWins,,"1,4,2,5,7,6",Player O has won!
+END,,,,

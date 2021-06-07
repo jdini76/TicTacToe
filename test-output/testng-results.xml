@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="19" passed="19" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-07T02:34:32Z" name="Tic Tac Toe Automatiomn" finished-at="2021-06-07T02:34:39Z" duration-ms="7449">
+    <groups>
+      <group name="All">
+        <method signature="Tictactoe_Tests.TicTacTowDataDrivenTest(java.util.Map)[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" name="TicTacTowDataDrivenTest" class="tests.Tictactoe_Tests"/>
+        <method signature="Tictactoe_Tests.validateO()[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" name="validateO" class="tests.Tictactoe_Tests"/>
+        <method signature="Tictactoe_Tests.validateOWins()[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" name="validateOWins" class="tests.Tictactoe_Tests"/>
+        <method signature="Tictactoe_Tests.validateResetButton()[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" name="validateResetButton" class="tests.Tictactoe_Tests"/>
+        <method signature="Tictactoe_Tests.validateTieGame()[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" name="validateTieGame" class="tests.Tictactoe_Tests"/>
+        <method signature="Tictactoe_Tests.validateTitleLabel()[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" name="validateTitleLabel" class="tests.Tictactoe_Tests"/>
+        <method signature="Tictactoe_Tests.validateX()[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" name="validateX" class="tests.Tictactoe_Tests"/>
+        <method signature="Tictactoe_Tests.validateXWins()[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" name="validateXWins" class="tests.Tictactoe_Tests"/>
+      </group> <!-- All -->
+      <group name="Smoke">
+        <method signature="Tictactoe_Tests.TicTacTowDataDrivenTest(java.util.Map)[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" name="TicTacTowDataDrivenTest" class="tests.Tictactoe_Tests"/>
+        <method signature="Tictactoe_Tests.validateTitleLabel()[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" name="validateTitleLabel" class="tests.Tictactoe_Tests"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2021-06-07T02:34:32Z" name="Tic Tac Toe Tests" finished-at="2021-06-07T02:34:39Z" duration-ms="7449">
+      <class name="tests.Tictactoe_Tests">
+        <test-method is-config="true" signature="SuiteSetup()[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:32Z" name="SuiteSetup" finished-at="2021-06-07T02:34:32Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuiteSetup -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:32Z" name="startTest" finished-at="2021-06-07T02:34:32Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="ClassSetup(java.lang.String)[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:32Z" name="ClassSetup" finished-at="2021-06-07T02:34:34Z" duration-ms="2405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClassSetup -->
+        <test-method signature="TicTacTowDataDrivenTest(java.util.Map)[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:34Z" name="TicTacTowDataDrivenTest" data-provider="getTicTacToeData" finished-at="2021-06-07T02:34:35Z" duration-ms="364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestName=TC001_TicTacToe_ValidateLabelAfterSquare1Selected, RunTest=Y, SquareSelection=1, LabelExpectedResult=It's O's turn, TestDescription=To validate the label changes after square is X}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TicTacTowDataDrivenTest -->
+        <test-method is-config="true" signature="inbetweenReset(org.testng.ITestResult)[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:35Z" name="inbetweenReset" finished-at="2021-06-07T02:34:35Z" duration-ms="41" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TicTacTowDataDrivenTest status=SUCCESS method=Tictactoe_Tests.TicTacTowDataDrivenTest(java.util.Map)[pri:0, instance:tests.Tictactoe_Tests@4961f6af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inbetweenReset -->
+        <test-method signature="TicTacTowDataDrivenTest(java.util.Map)[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:35Z" name="TicTacTowDataDrivenTest" data-provider="getTicTacToeData" finished-at="2021-06-07T02:34:35Z" duration-ms="132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestName=TC002_TicTacToe_ValidateLabelAfterSquare2Selected, RunTest=Y, SquareSelection=2, LabelExpectedResult=It's O's turn, TestDescription=To validate the label changes after square is X}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TicTacTowDataDrivenTest -->
+        <test-method is-config="true" signature="inbetweenReset(org.testng.ITestResult)[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:35Z" name="inbetweenReset" finished-at="2021-06-07T02:34:35Z" duration-ms="50" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TicTacTowDataDrivenTest status=SUCCESS method=Tictactoe_Tests.TicTacTowDataDrivenTest(java.util.Map)[pri:0, instance:tests.Tictactoe_Tests@4961f6af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inbetweenReset -->
+        <test-method signature="TicTacTowDataDrivenTest(java.util.Map)[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:35Z" name="TicTacTowDataDrivenTest" data-provider="getTicTacToeData" finished-at="2021-06-07T02:34:35Z" duration-ms="144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestName=TC003_TicTacToe_ValidateLabelAfterSquare3Selected, RunTest=Y, SquareSelection=3, LabelExpectedResult=It's O's turn, TestDescription=To validate the label changes after square is X}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TicTacTowDataDrivenTest -->
+        <test-method is-config="true" signature="inbetweenReset(org.testng.ITestResult)[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:35Z" name="inbetweenReset" finished-at="2021-06-07T02:34:35Z" duration-ms="37" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TicTacTowDataDrivenTest status=SUCCESS method=Tictactoe_Tests.TicTacTowDataDrivenTest(java.util.Map)[pri:0, instance:tests.Tictactoe_Tests@4961f6af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inbetweenReset -->
+        <test-method signature="TicTacTowDataDrivenTest(java.util.Map)[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:35Z" name="TicTacTowDataDrivenTest" data-provider="getTicTacToeData" finished-at="2021-06-07T02:34:35Z" duration-ms="139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestName=TC004_TicTacToe_ValidateLabelAfterSquare4Selected, RunTest=Y, SquareSelection=4, LabelExpectedResult=It's O's turn, TestDescription=To validate the label changes after square is X}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TicTacTowDataDrivenTest -->
+        <test-method is-config="true" signature="inbetweenReset(org.testng.ITestResult)[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:35Z" name="inbetweenReset" finished-at="2021-06-07T02:34:35Z" duration-ms="38" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TicTacTowDataDrivenTest status=SUCCESS method=Tictactoe_Tests.TicTacTowDataDrivenTest(java.util.Map)[pri:0, instance:tests.Tictactoe_Tests@4961f6af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inbetweenReset -->
+        <test-method signature="TicTacTowDataDrivenTest(java.util.Map)[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:35Z" name="TicTacTowDataDrivenTest" data-provider="getTicTacToeData" finished-at="2021-06-07T02:34:35Z" duration-ms="139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestName=TC005_TicTacToe_ValidateLabelAfterSquare5Selected, RunTest=Y, SquareSelection=5, LabelExpectedResult=It's O's turn, TestDescription=To validate the label changes after square is X}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TicTacTowDataDrivenTest -->
+        <test-method is-config="true" signature="inbetweenReset(org.testng.ITestResult)[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:35Z" name="inbetweenReset" finished-at="2021-06-07T02:34:35Z" duration-ms="36" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TicTacTowDataDrivenTest status=SUCCESS method=Tictactoe_Tests.TicTacTowDataDrivenTest(java.util.Map)[pri:0, instance:tests.Tictactoe_Tests@4961f6af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inbetweenReset -->
+        <test-method signature="TicTacTowDataDrivenTest(java.util.Map)[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:35Z" name="TicTacTowDataDrivenTest" data-provider="getTicTacToeData" finished-at="2021-06-07T02:34:36Z" duration-ms="130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestName=TC006_TicTacToe_ValidateLabelAfterSquare6Selected, RunTest=Y, SquareSelection=6, LabelExpectedResult=It's O's turn, TestDescription=To validate the label changes after square is X}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TicTacTowDataDrivenTest -->
+        <test-method is-config="true" signature="inbetweenReset(org.testng.ITestResult)[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:36Z" name="inbetweenReset" finished-at="2021-06-07T02:34:36Z" duration-ms="36" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TicTacTowDataDrivenTest status=SUCCESS method=Tictactoe_Tests.TicTacTowDataDrivenTest(java.util.Map)[pri:0, instance:tests.Tictactoe_Tests@4961f6af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inbetweenReset -->
+        <test-method signature="TicTacTowDataDrivenTest(java.util.Map)[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:36Z" name="TicTacTowDataDrivenTest" data-provider="getTicTacToeData" finished-at="2021-06-07T02:34:36Z" duration-ms="120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestName=TC007_TicTacToe_ValidateLabelAfterSquare7Selected, RunTest=Y, SquareSelection=7, LabelExpectedResult=It's O's turn, TestDescription=To validate the label changes after square is X}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TicTacTowDataDrivenTest -->
+        <test-method is-config="true" signature="inbetweenReset(org.testng.ITestResult)[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:36Z" name="inbetweenReset" finished-at="2021-06-07T02:34:36Z" duration-ms="44" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TicTacTowDataDrivenTest status=SUCCESS method=Tictactoe_Tests.TicTacTowDataDrivenTest(java.util.Map)[pri:0, instance:tests.Tictactoe_Tests@4961f6af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inbetweenReset -->
+        <test-method signature="TicTacTowDataDrivenTest(java.util.Map)[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:36Z" name="TicTacTowDataDrivenTest" data-provider="getTicTacToeData" finished-at="2021-06-07T02:34:36Z" duration-ms="129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestName=TC008_TicTacToe_ValidateLabelAfterSquare8Selected, RunTest=Y, SquareSelection=8, LabelExpectedResult=It's O's turn, TestDescription=To validate the label changes after square is X}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TicTacTowDataDrivenTest -->
+        <test-method is-config="true" signature="inbetweenReset(org.testng.ITestResult)[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:36Z" name="inbetweenReset" finished-at="2021-06-07T02:34:36Z" duration-ms="34" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TicTacTowDataDrivenTest status=SUCCESS method=Tictactoe_Tests.TicTacTowDataDrivenTest(java.util.Map)[pri:0, instance:tests.Tictactoe_Tests@4961f6af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inbetweenReset -->
+        <test-method signature="TicTacTowDataDrivenTest(java.util.Map)[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:36Z" name="TicTacTowDataDrivenTest" data-provider="getTicTacToeData" finished-at="2021-06-07T02:34:36Z" duration-ms="122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestName=TC009_TicTacToe_ValidateLabelAfterSquare9Selected, RunTest=Y, SquareSelection=9, LabelExpectedResult=It's O's turn, TestDescription=To validate the label changes after square is X}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TicTacTowDataDrivenTest -->
+        <test-method is-config="true" signature="inbetweenReset(org.testng.ITestResult)[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:36Z" name="inbetweenReset" finished-at="2021-06-07T02:34:36Z" duration-ms="36" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TicTacTowDataDrivenTest status=SUCCESS method=Tictactoe_Tests.TicTacTowDataDrivenTest(java.util.Map)[pri:0, instance:tests.Tictactoe_Tests@4961f6af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inbetweenReset -->
+        <test-method signature="TicTacTowDataDrivenTest(java.util.Map)[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:36Z" name="TicTacTowDataDrivenTest" data-provider="getTicTacToeData" finished-at="2021-06-07T02:34:37Z" duration-ms="452" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestName=TC010_TicTacToe_ValidateTieScore, RunTest=Y, SquareSelection=1,9,3,7,8,2,4,5,6, LabelExpectedResult=Game ended in a draw!, TestDescription=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TicTacTowDataDrivenTest -->
+        <test-method is-config="true" signature="inbetweenReset(org.testng.ITestResult)[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:37Z" name="inbetweenReset" finished-at="2021-06-07T02:34:37Z" duration-ms="41" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TicTacTowDataDrivenTest status=SUCCESS method=Tictactoe_Tests.TicTacTowDataDrivenTest(java.util.Map)[pri:0, instance:tests.Tictactoe_Tests@4961f6af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inbetweenReset -->
+        <test-method signature="TicTacTowDataDrivenTest(java.util.Map)[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:37Z" name="TicTacTowDataDrivenTest" data-provider="getTicTacToeData" finished-at="2021-06-07T02:34:37Z" duration-ms="278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestName=TC011_TicTacToe_ValidateXWins, RunTest=Y, SquareSelection=1,4,2,5,3, LabelExpectedResult=Player X has won!, TestDescription=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TicTacTowDataDrivenTest -->
+        <test-method is-config="true" signature="inbetweenReset(org.testng.ITestResult)[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:37Z" name="inbetweenReset" finished-at="2021-06-07T02:34:37Z" duration-ms="33" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TicTacTowDataDrivenTest status=SUCCESS method=Tictactoe_Tests.TicTacTowDataDrivenTest(java.util.Map)[pri:0, instance:tests.Tictactoe_Tests@4961f6af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inbetweenReset -->
+        <test-method signature="TicTacTowDataDrivenTest(java.util.Map)[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:37Z" name="TicTacTowDataDrivenTest" data-provider="getTicTacToeData" finished-at="2021-06-07T02:34:37Z" duration-ms="316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestName=TC012_TicTacToe_ValidateOWins, RunTest=Y, SquareSelection=1,4,2,5,7,6, LabelExpectedResult=Player O has won!, TestDescription=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TicTacTowDataDrivenTest -->
+        <test-method is-config="true" signature="inbetweenReset(org.testng.ITestResult)[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:37Z" name="inbetweenReset" finished-at="2021-06-07T02:34:37Z" duration-ms="36" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TicTacTowDataDrivenTest status=SUCCESS method=Tictactoe_Tests.TicTacTowDataDrivenTest(java.util.Map)[pri:0, instance:tests.Tictactoe_Tests@4961f6af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inbetweenReset -->
+        <test-method signature="validateO()[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:37Z" name="validateO" finished-at="2021-06-07T02:34:37Z" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateO -->
+        <test-method is-config="true" signature="inbetweenReset(org.testng.ITestResult)[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:37Z" name="inbetweenReset" finished-at="2021-06-07T02:34:37Z" duration-ms="38" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateO status=SUCCESS method=Tictactoe_Tests.validateO()[pri:0, instance:tests.Tictactoe_Tests@4961f6af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inbetweenReset -->
+        <test-method signature="validateOWins()[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:37Z" name="validateOWins" finished-at="2021-06-07T02:34:38Z" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOWins -->
+        <test-method is-config="true" signature="inbetweenReset(org.testng.ITestResult)[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:38Z" name="inbetweenReset" finished-at="2021-06-07T02:34:38Z" duration-ms="40" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateOWins status=SUCCESS method=Tictactoe_Tests.validateOWins()[pri:0, instance:tests.Tictactoe_Tests@4961f6af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inbetweenReset -->
+        <test-method signature="validateResetButton()[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:38Z" name="validateResetButton" finished-at="2021-06-07T02:34:38Z" duration-ms="559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResetButton -->
+        <test-method is-config="true" signature="inbetweenReset(org.testng.ITestResult)[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:38Z" name="inbetweenReset" finished-at="2021-06-07T02:34:38Z" duration-ms="32" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateResetButton status=SUCCESS method=Tictactoe_Tests.validateResetButton()[pri:0, instance:tests.Tictactoe_Tests@4961f6af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inbetweenReset -->
+        <test-method signature="validateTieGame()[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:38Z" name="validateTieGame" finished-at="2021-06-07T02:34:39Z" duration-ms="425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTieGame -->
+        <test-method is-config="true" signature="inbetweenReset(org.testng.ITestResult)[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:39Z" name="inbetweenReset" finished-at="2021-06-07T02:34:39Z" duration-ms="46" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateTieGame status=SUCCESS method=Tictactoe_Tests.validateTieGame()[pri:0, instance:tests.Tictactoe_Tests@4961f6af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inbetweenReset -->
+        <test-method signature="validateTitleLabel()[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:39Z" name="validateTitleLabel" finished-at="2021-06-07T02:34:39Z" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitleLabel -->
+        <test-method is-config="true" signature="inbetweenReset(org.testng.ITestResult)[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:39Z" name="inbetweenReset" finished-at="2021-06-07T02:34:39Z" duration-ms="34" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateTitleLabel status=SUCCESS method=Tictactoe_Tests.validateTitleLabel()[pri:0, instance:tests.Tictactoe_Tests@4961f6af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inbetweenReset -->
+        <test-method signature="validateX()[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:39Z" name="validateX" finished-at="2021-06-07T02:34:39Z" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateX -->
+        <test-method is-config="true" signature="inbetweenReset(org.testng.ITestResult)[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:39Z" name="inbetweenReset" finished-at="2021-06-07T02:34:39Z" duration-ms="32" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateX status=SUCCESS method=Tictactoe_Tests.validateX()[pri:0, instance:tests.Tictactoe_Tests@4961f6af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inbetweenReset -->
+        <test-method signature="validateXWins()[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:39Z" name="validateXWins" finished-at="2021-06-07T02:34:39Z" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateXWins -->
+        <test-method is-config="true" signature="inbetweenReset(org.testng.ITestResult)[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:39Z" name="inbetweenReset" finished-at="2021-06-07T02:34:39Z" duration-ms="35" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateXWins status=SUCCESS method=Tictactoe_Tests.validateXWins()[pri:0, instance:tests.Tictactoe_Tests@4961f6af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inbetweenReset -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:tests.Tictactoe_Tests@4961f6af]" started-at="2021-06-07T02:34:39Z" name="afterSuite" finished-at="2021-06-07T02:34:40Z" duration-ms="922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.Tictactoe_Tests -->
+    </test> <!-- Tic Tac Toe Tests -->
+  </suite> <!-- Tic Tac Toe Automatiomn -->
+</testng-results>

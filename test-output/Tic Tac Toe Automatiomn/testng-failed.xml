@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Tic Tac Toe Automatiomn]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Tic Tac Toe Tests(failed)">
+    <parameter name="browser" value="firefox"/>
+    <groups>
+      <run>
+        <include name="All"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.Tictactoe_Tests">
+        <methods>
+          <include name="validateTieGame"/>
+          <include name="validateXWins"/>
+          <include name="ClassSetup"/>
+          <include name="validateOWins"/>
+          <include name="SuiteSetup"/>
+          <include name="inbetweenReset"/>
+          <include name="validateX"/>
+          <include name="startTest"/>
+          <include name="validateTitleLabel"/>
+          <include name="validateResetButton"/>
+          <include name="validateO"/>
+          <include name="TicTacTowDataDrivenTest"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- tests.Tictactoe_Tests -->
+    </classes>
+  </test> <!-- Tic Tac Toe Tests(failed) -->
+</suite> <!-- Failed suite [Tic Tac Toe Automatiomn] -->

@@ -1,0 +1,174 @@
+<html>
+<head>
+<title>TestNG:  Tic Tac Toe Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Tic Tac Toe Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>19/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Jun 06 22:34:32 EDT 2021</td>
+</tr>
+<tr><td>Total time:</td><td>7 seconds (7449 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>All </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.Tictactoe_Tests.TicTacTowDataDrivenTest()'><b>TicTacTowDataDrivenTest</b><br>Test class: tests.Tictactoe_Tests<br>Parameters: {TestName=TC001_TicTacToe_ValidateLabelAfterSquare1Selected, RunTest=Y, SquareSelection=1, LabelExpectedResult=It's O's turn, TestDescription=To validate the label changes after square is X}</td>
+<td></td>
+<td>0</td>
+<td>tests.Tictactoe_Tests@4961f6af</td></tr>
+<tr>
+<td title='tests.Tictactoe_Tests.TicTacTowDataDrivenTest()'><b>TicTacTowDataDrivenTest</b><br>Test class: tests.Tictactoe_Tests<br>Parameters: {TestName=TC002_TicTacToe_ValidateLabelAfterSquare2Selected, RunTest=Y, SquareSelection=2, LabelExpectedResult=It's O's turn, TestDescription=To validate the label changes after square is X}</td>
+<td></td>
+<td>0</td>
+<td>tests.Tictactoe_Tests@4961f6af</td></tr>
+<tr>
+<td title='tests.Tictactoe_Tests.TicTacTowDataDrivenTest()'><b>TicTacTowDataDrivenTest</b><br>Test class: tests.Tictactoe_Tests<br>Parameters: {TestName=TC003_TicTacToe_ValidateLabelAfterSquare3Selected, RunTest=Y, SquareSelection=3, LabelExpectedResult=It's O's turn, TestDescription=To validate the label changes after square is X}</td>
+<td></td>
+<td>0</td>
+<td>tests.Tictactoe_Tests@4961f6af</td></tr>
+<tr>
+<td title='tests.Tictactoe_Tests.TicTacTowDataDrivenTest()'><b>TicTacTowDataDrivenTest</b><br>Test class: tests.Tictactoe_Tests<br>Parameters: {TestName=TC004_TicTacToe_ValidateLabelAfterSquare4Selected, RunTest=Y, SquareSelection=4, LabelExpectedResult=It's O's turn, TestDescription=To validate the label changes after square is X}</td>
+<td></td>
+<td>0</td>
+<td>tests.Tictactoe_Tests@4961f6af</td></tr>
+<tr>
+<td title='tests.Tictactoe_Tests.TicTacTowDataDrivenTest()'><b>TicTacTowDataDrivenTest</b><br>Test class: tests.Tictactoe_Tests<br>Parameters: {TestName=TC005_TicTacToe_ValidateLabelAfterSquare5Selected, RunTest=Y, SquareSelection=5, LabelExpectedResult=It's O's turn, TestDescription=To validate the label changes after square is X}</td>
+<td></td>
+<td>0</td>
+<td>tests.Tictactoe_Tests@4961f6af</td></tr>
+<tr>
+<td title='tests.Tictactoe_Tests.TicTacTowDataDrivenTest()'><b>TicTacTowDataDrivenTest</b><br>Test class: tests.Tictactoe_Tests<br>Parameters: {TestName=TC006_TicTacToe_ValidateLabelAfterSquare6Selected, RunTest=Y, SquareSelection=6, LabelExpectedResult=It's O's turn, TestDescription=To validate the label changes after square is X}</td>
+<td></td>
+<td>0</td>
+<td>tests.Tictactoe_Tests@4961f6af</td></tr>
+<tr>
+<td title='tests.Tictactoe_Tests.TicTacTowDataDrivenTest()'><b>TicTacTowDataDrivenTest</b><br>Test class: tests.Tictactoe_Tests<br>Parameters: {TestName=TC007_TicTacToe_ValidateLabelAfterSquare7Selected, RunTest=Y, SquareSelection=7, LabelExpectedResult=It's O's turn, TestDescription=To validate the label changes after square is X}</td>
+<td></td>
+<td>0</td>
+<td>tests.Tictactoe_Tests@4961f6af</td></tr>
+<tr>
+<td title='tests.Tictactoe_Tests.TicTacTowDataDrivenTest()'><b>TicTacTowDataDrivenTest</b><br>Test class: tests.Tictactoe_Tests<br>Parameters: {TestName=TC008_TicTacToe_ValidateLabelAfterSquare8Selected, RunTest=Y, SquareSelection=8, LabelExpectedResult=It's O's turn, TestDescription=To validate the label changes after square is X}</td>
+<td></td>
+<td>0</td>
+<td>tests.Tictactoe_Tests@4961f6af</td></tr>
+<tr>
+<td title='tests.Tictactoe_Tests.TicTacTowDataDrivenTest()'><b>TicTacTowDataDrivenTest</b><br>Test class: tests.Tictactoe_Tests<br>Parameters: {TestName=TC009_TicTacToe_ValidateLabelAfterSquare9Selected, RunTest=Y, SquareSelection=9, LabelExpectedResult=It's O's turn, TestDescription=To validate the label changes after square is X}</td>
+<td></td>
+<td>0</td>
+<td>tests.Tictactoe_Tests@4961f6af</td></tr>
+<tr>
+<td title='tests.Tictactoe_Tests.TicTacTowDataDrivenTest()'><b>TicTacTowDataDrivenTest</b><br>Test class: tests.Tictactoe_Tests<br>Parameters: {TestName=TC010_TicTacToe_ValidateTieScore, RunTest=Y, SquareSelection=1,9,3,7,8,2,4,5,6, LabelExpectedResult=Game ended in a draw!, TestDescription=}</td>
+<td></td>
+<td>0</td>
+<td>tests.Tictactoe_Tests@4961f6af</td></tr>
+<tr>
+<td title='tests.Tictactoe_Tests.TicTacTowDataDrivenTest()'><b>TicTacTowDataDrivenTest</b><br>Test class: tests.Tictactoe_Tests<br>Parameters: {TestName=TC011_TicTacToe_ValidateXWins, RunTest=Y, SquareSelection=1,4,2,5,3, LabelExpectedResult=Player X has won!, TestDescription=}</td>
+<td></td>
+<td>0</td>
+<td>tests.Tictactoe_Tests@4961f6af</td></tr>
+<tr>
+<td title='tests.Tictactoe_Tests.TicTacTowDataDrivenTest()'><b>TicTacTowDataDrivenTest</b><br>Test class: tests.Tictactoe_Tests<br>Parameters: {TestName=TC012_TicTacToe_ValidateOWins, RunTest=Y, SquareSelection=1,4,2,5,7,6, LabelExpectedResult=Player O has won!, TestDescription=}</td>
+<td></td>
+<td>0</td>
+<td>tests.Tictactoe_Tests@4961f6af</td></tr>
+<tr>
+<td title='tests.Tictactoe_Tests.validateO()'><b>validateO</b><br>Test class: tests.Tictactoe_Tests</td>
+<td></td>
+<td>0</td>
+<td>tests.Tictactoe_Tests@4961f6af</td></tr>
+<tr>
+<td title='tests.Tictactoe_Tests.validateOWins()'><b>validateOWins</b><br>Test class: tests.Tictactoe_Tests</td>
+<td></td>
+<td>0</td>
+<td>tests.Tictactoe_Tests@4961f6af</td></tr>
+<tr>
+<td title='tests.Tictactoe_Tests.validateResetButton()'><b>validateResetButton</b><br>Test class: tests.Tictactoe_Tests</td>
+<td></td>
+<td>0</td>
+<td>tests.Tictactoe_Tests@4961f6af</td></tr>
+<tr>
+<td title='tests.Tictactoe_Tests.validateTieGame()'><b>validateTieGame</b><br>Test class: tests.Tictactoe_Tests</td>
+<td></td>
+<td>0</td>
+<td>tests.Tictactoe_Tests@4961f6af</td></tr>
+<tr>
+<td title='tests.Tictactoe_Tests.validateTitleLabel()'><b>validateTitleLabel</b><br>Test class: tests.Tictactoe_Tests</td>
+<td></td>
+<td>0</td>
+<td>tests.Tictactoe_Tests@4961f6af</td></tr>
+<tr>
+<td title='tests.Tictactoe_Tests.validateX()'><b>validateX</b><br>Test class: tests.Tictactoe_Tests</td>
+<td></td>
+<td>0</td>
+<td>tests.Tictactoe_Tests@4961f6af</td></tr>
+<tr>
+<td title='tests.Tictactoe_Tests.validateXWins()'><b>validateXWins</b><br>Test class: tests.Tictactoe_Tests</td>
+<td></td>
+<td>0</td>
+<td>tests.Tictactoe_Tests@4961f6af</td></tr>
+</table><p>
+</body>
+</html>

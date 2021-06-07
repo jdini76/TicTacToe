@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Tic Tac Toe Automatiomn" verbose="1">
+	<test name="Tic Tac Toe Tests">
+	<parameter name="browser" value="chrome" />
+		<groups>
+			<run>
+				<include name="All" />  <!-- Options are All and Smoke -->
+			</run>
+		</groups>
+		<classes>
+			<class name="tests.Tictactoe_Tests"></class>
+		</classes>
+
+	</test>
+</suite>
